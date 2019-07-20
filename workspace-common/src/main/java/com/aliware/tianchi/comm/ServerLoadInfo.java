@@ -33,11 +33,11 @@ public class ServerLoadInfo {
         this.providerThread = (int) (providerThread * 0.8);
         //this.providerThread = providerThread;
         if("small".equals(quota)){
-                this.weight = 2;
+                this.weight = 1;
         }else if("medium".equals(quota)){
-                this.weight = 5;
+                this.weight = 2;
         }else if("large".equals(quota)){
-                this.weight = 8;
+                this.weight = 3;
         }else{
                 this.weight = 1;
         }
